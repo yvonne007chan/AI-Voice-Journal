@@ -1,0 +1,11 @@
+{
+  "name": "Xiaolongbao - AI Voice Journal",
+  "description": "An immersive AI-powered voice diary with interactive generative particle simulations.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "AI Voice Interaction",
+    "Generative 3D Visuals"
+  ]
+}

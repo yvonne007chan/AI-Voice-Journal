@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Ma Shan Zheng", cursive;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-black text-white antialiased;
+  }
+}
+
+.markdown-body {
+  @apply text-zinc-300 leading-relaxed;
+}
